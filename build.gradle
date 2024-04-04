@@ -6,7 +6,7 @@ plugins {
 repositories {
     jcenter()
 }
-
+apply from: 'pmd.gradle'
 pmd {
     consoleOutput = true
     toolVersion = "6.0.0"
