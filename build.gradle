@@ -11,7 +11,7 @@ pmd {
     consoleOutput = true
     toolVersion = "6.0.0"
     rulesMinimumPriority = 5
-    ruleSets = ["category/java/errorprone.xml", "category/java/bestpractices.xml"]
+    ruleSets = ["/rulesets/java/braces.xml", "/rulesets/java/naming.xml"]
 }
 
 dependencies {
